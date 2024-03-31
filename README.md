@@ -29,7 +29,7 @@ To configure Squid with basic authentication and safe port definitions, follow t
 ```bash
 sudo nano /etc/squid/squid.conf
 ```
-Replace the file's full text with the following configuration code. This setup includes ACL definitions for local networks, safe ports, SSL ports, and the authentication parameters:
+Replace the file's full text with the following configuration code and save it. This setup includes ACL definitions for local networks, safe ports, SSL ports, and the authentication parameters:
 
 ```squid
 acl localnet src 0.0.0.0/0.0.0.0
